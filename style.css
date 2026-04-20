@@ -1,0 +1,211 @@
+/* Global */
+
+body {
+    background: #121212;
+    color: #ffffff;
+    font-family: "Circular Std", "Segoe UI", sans-serif;
+}
+
+/* Container */
+
+.block-container {
+    padding-top: 2rem;
+    max-width: 1200px;
+}
+
+/* Titles */
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    color: #1DB954;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+/* Cards */
+
+.metric-card {
+    background: #181818;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+    transition: all 0.3s ease;
+    border: 1px solid #222;
+}
+
+.metric-card:hover {
+    transform: translateY(-6px);
+    background: #202020;
+    border: 1px solid #1DB954;
+}
+
+/* Buttons */
+
+.stButton>button {
+    background: #1DB954;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 22px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    background: #1ed760;
+    transform: scale(1.05);
+}
+
+/* Sidebar */
+
+section[data-testid="stSidebar"] {
+    background: #000000;
+    border-right: 1px solid #222;
+}
+
+/* Sliders */
+
+.stSlider > div > div > div {
+    color: #1DB954;
+}
+
+/* Charts */
+
+.element-container:has(canvas) {
+    border-radius: 12px;
+    padding: 15px;
+    background: #181818;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+}
+
+/* Dataframe */
+
+[data-testid="stDataFrame"] {
+    background: #181818;
+    border-radius: 10px;
+    border: 1px solid #222;
+}
+
+/* Scrollbar (extra premium touch) */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1DB954;
+    border-radius: 10px;
+}/* Global */
+
+body {
+    background: #121212;
+    color: #ffffff;
+    font-family: "Circular Std", "Segoe UI", sans-serif;
+}
+
+/* Container */
+
+.block-container {
+    padding-top: 2rem;
+    max-width: 1200px;
+}
+
+/* Titles */
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    color: #1DB954;
+    letter-spacing: 0.5px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+/* Cards */
+
+.metric-card {
+    background: #181818;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+    transition: all 0.3s ease;
+    border: 1px solid #222;
+}
+
+.metric-card:hover {
+    transform: translateY(-6px);
+    background: #202020;
+    border: 1px solid #1DB954;
+}
+
+/* Buttons */
+
+.stButton>button {
+    background: #1DB954;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 22px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    background: #1ed760;
+    transform: scale(1.05);
+}
+
+/* Sidebar */
+
+section[data-testid="stSidebar"] {
+    background: #000000;
+    border-right: 1px solid #222;
+}
+
+/* Sliders */
+
+.stSlider > div > div > div {
+    color: #1DB954;
+}
+
+/* Charts */
+
+.element-container:has(canvas) {
+    border-radius: 12px;
+    padding: 15px;
+    background: #181818;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+}
+
+/* Dataframe */
+
+[data-testid="stDataFrame"] {
+    background: #181818;
+    border-radius: 10px;
+    border: 1px solid #222;
+}
+
+/* Scrollbar (extra premium touch) */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1DB954;
+    border-radius: 10px;
+}
